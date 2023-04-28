@@ -41,13 +41,13 @@ while True:
         if result == "이겼다.":
             me_win+=1
             print(f"당신은 {me_win}:컴퓨터는 {computer_win}")
-            if me_win == 3:
+            if me_win == 2:
                 print(f"축하합니다! 당신의 승리")
                 break
         elif result == "졌다.":
             computer_win+=1
             print(f"당신은 {me_win}:컴퓨터는 {computer_win}")
-            if computer_win ==3:
+            if computer_win ==2:
                 print(f"아쉽습니다 ! AI의 승리")
                 break
         else:
